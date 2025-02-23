@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* To make it center  */
+    background-color: #2274A5;
+}
+
+.container {
+    background-color:white;
+    padding:2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border:none;
+    outline:none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size :  1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+
+}
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdwon i {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.select-container img {
+    max-width: 2rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem; */
+   
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+}
+.msg{
+    margin : 2rem 0 2rem 0;
+    
+}
+form button{
+    height: 3rem;
+    background-color: #af4d98;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;  
+}
+
+/* Additional features added  */
+form button:hover {
+    background-color: #8c3b7d; /* Darker shade for a hover effect */
+    transition: background-color 0.3s ease-in-out;
+}
+
+select:hover {
+    background-color: #f3f3f3;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.container {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+}
+
+form button {
+    box-shadow: 0px 4px 10px rgba(175, 77, 152, 0.3); /* Button shadow */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: linear-gradient(135deg, #2274A5, #7BC8A4);
+}
+@media (max-width: 500px) {
+    .container {
+        width: 80%;
+    }
+}
+form button:active {
+    transform: scale(0.95);
+}
+
+.container {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.container {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
